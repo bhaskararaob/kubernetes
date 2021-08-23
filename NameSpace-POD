@@ -10,9 +10,9 @@ kubectl get all -n kube-system -o wide
 
 kubectl create ns <namespace name>
 
-kubectl apply -f https://raw.githubusercontent.com/cloudnloud/Kubernetes_Admin_Training/main/class4-namespace-Pod/namespace/namespace.yaml
+kubectl apply -f https://raw.githubusercontent.com/bhaskararaob/kubernetes/main/NameSpace/Pod/namespace.yml
 
-kubectl delete -f https://raw.githubusercontent.com/cloudnloud/Kubernetes_Admin_Training/main/class4-namespace-Pod/namespace/namespace.yaml
+kubectl delete -f https://raw.githubusercontent.com/bhaskararaob/kubernetes/main/NameSpace/Pod/namespace.yml
 
 2. create pods...
 
